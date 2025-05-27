@@ -1,6 +1,5 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Cog, BarChart3, MessageSquare, Shield, Zap, Brain } from "lucide-react";
+import { Cog, BarChart3, MessageSquare, Shield, Zap } from "lucide-react";
 
 const services = [
   {
@@ -17,11 +16,6 @@ const services = [
     icon: BarChart3,
     title: "Análisis Predictivo",
     description: "Insights avanzados y predicciones precisas para tomar decisiones estratégicas basadas en datos.",
-  },
-  {
-    icon: Brain,
-    title: "Machine Learning",
-    description: "Modelos predictivos personalizados que aprenden de tus datos para optimizar procesos y predecir tendencias.",
   },
   {
     icon: Shield,
