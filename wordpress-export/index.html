@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmcIA - Inteligencia Artificial Empresarial</title>
+    <meta name="description" content="Transformamos tu negocio con soluciones de IA personalizadas" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.462.0/lucide.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    Omc<span class="logo-ia">IA</span>
+                </div>
+                
+                <nav class="nav desktop-nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+
+                <div class="header-cta desktop-only">
+                    <button class="btn btn-primary">Consulta Gratuita</button>
+                </div>
+
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+
+            <nav class="mobile-nav" id="mobileNav">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+                <button class="btn btn-primary">Consulta Gratuita</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i data-lucide="sparkles"></i>
+                    <span>Inteligencia Artificial Empresarial</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    El futuro de tu empresa<br>
+                    <span class="text-ai">es inteligente</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Transformamos tu negocio con soluciones de IA personalizadas. 
+                    Automatización inteligente, análisis predictivo y decisiones basadas en datos.
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-lg">
+                        Comenzar ahora
+                        <i data-lucide="arrow-right"></i>
+                    </button>
+                    <button class="btn btn-outline btn-lg">
+                        Ver casos de éxito
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Servicios de <span class="text-ai">IA Avanzada</span></h2>
+                <p>Soluciones inteligentes diseñadas para impulsar tu negocio hacia el futuro digital</p>
+            </div>
+            
+            <!-- Primera fila con 3 servicios -->
+            <div class="services-grid-3">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="cog"></i>
+                    </div>
+                    <h3>Automatización</h3>
+                    <p>Procesos automatizados inteligentes que reducen costos operativos y aumentan la eficiencia.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="message-square"></i>
+                    </div>
+                    <h3>Chatbots Inteligentes</h3>
+                    <p>Asistentes virtuales con procesamiento de lenguaje natural para mejorar la atención al cliente 24/7.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="bar-chart-3"></i>
+                    </div>
+                    <h3>Análisis Predictivo</h3>
+                    <p>Insights avanzados y predicciones precisas para tomar decisiones estratégicas basadas en datos.</p>
+                </div>
+            </div>
+
+            <!-- Segunda fila centrada con 2 servicios -->
+            <div class="services-grid-2">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="shield"></i>
+                    </div>
+                    <h3>IA Segura</h3>
+                    <p>Implementaciones robustas con los más altos estándares de seguridad y privacidad de datos.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3>Integración Rápida</h3>
+                    <p>Soluciones plug-and-play que se integran seamlessly con tu infraestructura existente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>Escalando empresas con <span class="text-ai">Inteligencia Artificial</span></h2>
+                    <p>En OmcIA somos una empresa joven con una pasión desbordante por la inteligencia artificial 
+                    y su poder para escalar negocios. Aunque estamos empezando nuestro camino, nuestro enfoque 
+                    especializado en IA empresarial nos ha permitido entregar resultados excepcionales desde 
+                    el primer día.</p>
+                    <p>Nuestras empresas clientes están encantadas con nuestro servicio y profesionalidad. 
+                    Nos dedicamos a resolver todo tipo de problemas empresariales y ayudar a mejorar procesos 
+                    existentes mediante soluciones de IA innovadoras y personalizadas. Cada proyecto es una 
+                    oportunidad para demostrar que la experiencia se construye con dedicación y resultados.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <i data-lucide="users"></i>
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Proyectos Entregados</div>
+                        </div>
+                        <div class="stat-card">
+                            <i data-lucide="award"></i>
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Satisfacción del Cliente</div>
+                        </div>
+                        <div class="stat-card">
+                            <i data-lucide="lightbulb"></i>
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Años de Experiencia</div>
+                        </div>
+                        <div class="stat-card">
+                            <i data-lucide="target"></i>
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Empresas Atendidas</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="ai-logo">
+                        <div class="ai-text">IA</div>
+                        <p>Creciendo juntos<br>hacia el éxito</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Listo para <span class="text-ai">transformar</span> tu negocio?</h2>
+                <p>Contáctanos hoy y descubre cómo la inteligencia artificial puede revolucionar tu empresa</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <div class="contact-card">
+                        <h3>Envíanos un mensaje</h3>
+                        <form class="contact-form" onsubmit="handleSubmit(event)">
+                            <div class="form-row">
+                                <input type="text" placeholder="Tu nombre" required>
+                                <input type="email" placeholder="Tu email" required>
+                            </div>
+                            <input type="text" placeholder="Tu empresa">
+                            <textarea placeholder="Cuéntanos sobre tu proyecto..." rows="5" required></textarea>
+                            <button type="submit" class="btn btn-primary">
+                                Enviar mensaje
+                                <i data-lucide="send"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Información de contacto</h3>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div>
+                                <p class="contact-label">Email</p>
+                                <p class="contact-value">contacto@omcia.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div>
+                                <p class="contact-label">Teléfono</p>
+                                <p class="contact-value">+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div>
+                                <p class="contact-label">Ubicación</p>
+                                <p class="contact-value">Ciudad de México, México</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="consultation-card">
+                        <h4>Consulta gratuita</h4>
+                        <p>Agenda una consulta gratuita de 30 minutos para discutir cómo la IA puede transformar tu negocio.</p>
+                        <button class="btn btn-gradient">Agendar consulta</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        Omc<span class="logo-ia">IA</span>
+                    </div>
+                    <p>Transformamos empresas con soluciones de inteligencia artificial innovadoras, 
+                    seguras y escalables para el futuro digital.</p>
+                    <div class="social-links">
+                        <a href="#"><i data-lucide="linkedin"></i></a>
+                        <a href="#"><i data-lucide="twitter"></i></a>
+                        <a href="#"><i data-lucide="github"></i></a>
+                        <a href="#"><i data-lucide="mail"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Automatización</a></li>
+                        <li><a href="#">Chatbots</a></li>
+                        <li><a href="#">Análisis Predictivo</a></li>
+                        <li><a href="#">IA Segura</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#nosotros">Sobre nosotros</a></li>
+                        <li><a href="#">Casos de éxito</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 OmcIA. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
