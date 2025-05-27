@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Cog, BarChart3, MessageSquare, Shield, Zap } from "lucide-react";
 
@@ -42,8 +43,9 @@ export const Services = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => (
+        {/* Primera fila con 3 servicios */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+          {services.slice(0, 3).map((service, index) => (
             <Card 
               key={index} 
               className="service-card hover:scale-105 transition-all duration-300 group"
@@ -64,6 +66,33 @@ export const Services = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Segunda fila centrada con los 2 servicios destacados */}
+        <div className="flex justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
+            {services.slice(3).map((service, index) => (
+              <Card 
+                key={index + 3} 
+                className="service-card hover:scale-105 transition-all duration-300 group"
+                style={{animationDelay: `${(index + 3) * 0.1}s`}}
+              >
+                <CardHeader className="text-center">
+                  <div className="mx-auto mb-4 p-3 bg-ai-500/10 rounded-full w-fit group-hover:bg-ai-500/20 transition-colors">
+                    <service.icon className="text-ai-500 group-hover:scale-110 transition-transform" size={32} />
+                  </div>
+                  <CardTitle className="text-xl font-bold text-foreground">
+                    {service.title}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-muted-foreground text-center">
+                    {service.description}
+                  </CardDescription>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
       </div>
     </section>
