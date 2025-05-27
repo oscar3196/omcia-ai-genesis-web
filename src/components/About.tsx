@@ -3,10 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Award, Users, Lightbulb, Target } from "lucide-react";
 
 const stats = [
-  { icon: Users, number: "50+", label: "Proyectos Completados" },
-  { icon: Award, number: "98%", label: "Satisfacción del Cliente" },
-  { icon: Lightbulb, number: "15+", label: "Años de Experiencia" },
-  { icon: Target, number: "100%", label: "Proyectos Exitosos" },
+  { icon: Users, number: "15+", label: "Proyectos Entregados" },
+  { icon: Award, number: "100%", label: "Satisfacción del Cliente" },
+  { icon: Lightbulb, number: "2+", label: "Años de Experiencia" },
+  { icon: Target, number: "15+", label: "Empresas Atendidas" },
 ];
 
 export const About = () => {
@@ -16,16 +16,19 @@ export const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Expertos en <span className="text-ai-500 glow-text">Inteligencia Artificial</span>
+              Escalando empresas con <span className="text-ai-500 glow-text">Inteligencia Artificial</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              En OmcIA, somos pioneros en la implementación de soluciones de inteligencia artificial 
-              para empresas que buscan transformar su futuro digital. Nuestro equipo de expertos 
-              combina años de experiencia con las tecnologías más avanzadas del mercado.
+              En OmcIA somos una empresa joven con una pasión desbordante por la inteligencia artificial 
+              y su poder para escalar negocios. Aunque estamos empezando nuestro camino, nuestro enfoque 
+              especializado en IA empresarial nos ha permitido entregar resultados excepcionales desde 
+              el primer día.
             </p>
             <p className="text-lg text-muted-foreground mb-8">
-              Desde startups hasta grandes corporaciones, ayudamos a nuestros clientes a automatizar 
-              procesos, tomar decisiones más inteligentes y crear experiencias excepcionales para sus usuarios.
+              Nuestras empresas clientes están encantadas con nuestro servicio y profesionalidad. 
+              Nos dedicamos a resolver todo tipo de problemas empresariales y ayudar a mejorar procesos 
+              existentes mediante soluciones de IA innovadoras y personalizadas. Cada proyecto es una 
+              oportunidad para demostrar que la experiencia se construye con dedicación y resultados.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
@@ -47,9 +50,9 @@ export const About = () => {
                 <div className="text-center">
                   <div className="text-6xl font-bold text-ai-500 glow-text mb-4">IA</div>
                   <p className="text-lg text-muted-foreground">
-                    Transformando el futuro
+                    Creciendo juntos
                     <br />
-                    una empresa a la vez
+                    hacia el éxito
                   </p>
                 </div>
               </div>

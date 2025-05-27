@@ -1,12 +1,12 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Brain, BarChart3, Cog, MessageSquare, Shield, Zap } from "lucide-react";
+import { Cog, BarChart3, MessageSquare, Shield, Zap, Brain } from "lucide-react";
 
 const services = [
   {
-    icon: Brain,
-    title: "Machine Learning",
-    description: "Modelos predictivos personalizados que aprenden de tus datos para optimizar procesos y predecir tendencias.",
+    icon: Cog,
+    title: "Automatización",
+    description: "Procesos automatizados inteligentes que reducen costos operativos y aumentan la eficiencia.",
   },
   {
     icon: MessageSquare,
@@ -19,9 +19,9 @@ const services = [
     description: "Insights avanzados y predicciones precisas para tomar decisiones estratégicas basadas en datos.",
   },
   {
-    icon: Cog,
-    title: "Automatización",
-    description: "Procesos automatizados inteligentes que reducen costos operativos y aumentan la eficiencia.",
+    icon: Brain,
+    title: "Machine Learning",
+    description: "Modelos predictivos personalizados que aprenden de tus datos para optimizar procesos y predecir tendencias.",
   },
   {
     icon: Shield,
