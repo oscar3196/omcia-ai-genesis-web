@@ -1,0 +1,1768 @@
+
+{
+  "version": "0.4",
+  "title": "OmcIA Landing Page",
+  "type": "page",
+  "author": "OmcIA",
+  "generator": "Elementor",
+  "image": "",
+  "description": "Plantilla completa de OmcIA para consultoría en IA",
+  "content": [
+    {
+      "id": "header-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "_column_size": 100,
+        "_inline_size": null,
+        "structure": "20",
+        "background_background": "classic",
+        "background_color": "rgba(15, 23, 42, 0.95)",
+        "backdrop_filter_blur": {
+          "unit": "px",
+          "size": 10
+        },
+        "position": "fixed",
+        "z_index": 50,
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "top": {
+          "unit": "px",
+          "size": 0
+        },
+        "border_border": "solid",
+        "border_width": {
+          "top": "0",
+          "right": "0",
+          "bottom": "1",
+          "left": "0"
+        },
+        "border_color": "#334155",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "20",
+          "bottom": "20",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "header-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "logo",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Omc<span style=\"color: #f8fafc;\">IA</span>",
+                "size": "h2",
+                "color": "#0ea5e9",
+                "typography_typography": "custom",
+                "typography_font_weight": "bold",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "text_shadow_text_shadow_type": "yes",
+                "text_shadow_text_shadow": {
+                  "horizontal": 0,
+                  "vertical": 0,
+                  "blur": 20,
+                  "color": "rgba(14, 165, 233, 0.5)"
+                }
+              }
+            },
+            {
+              "id": "nav-menu",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "menu": "main-menu",
+                "layout": "horizontal",
+                "align_items": "center",
+                "color_menu_item": "#f8fafc",
+                "color_menu_item_hover": "#0ea5e9",
+                "typography_typography": "custom",
+                "typography_font_weight": "500",
+                "menu_space_between": {
+                  "unit": "px",
+                  "size": 32
+                }
+              }
+            },
+            {
+              "id": "cta-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Consulta Gratuita",
+                "background_color": "#0ea5e9",
+                "color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_weight": "600",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8
+                },
+                "button_text_padding": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 24,
+                  "bottom": 12,
+                  "left": 24
+                },
+                "hover_background_color": "#0284c7",
+                "hover_animation": "grow"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero-section",
+      "elType": "section",
+      "settings": {
+        "height": "min-height",
+        "height_inner": {
+          "unit": "vh",
+          "size": 100
+        },
+        "background_background": "gradient",
+        "background_color": "#0f172a",
+        "background_color_stop": {
+          "unit": "%",
+          "size": 0
+        },
+        "background_color_b": "#0c4a6e",
+        "background_color_b_stop": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "content_position": "middle",
+        "padding": {
+          "unit": "px",
+          "top": 100,
+          "right": 20,
+          "bottom": 100,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "text_align": "center"
+          },
+          "elements": [
+            {
+              "id": "hero-badge",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><i class=\"fas fa-sparkles\" style=\"color: #0ea5e9; margin-right: 8px;\"></i><span style=\"color: #0ea5e9; font-weight: 600;\">Inteligencia Artificial Empresarial</span></p>",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 24,
+                  "left": 0
+                }
+              }
+            },
+            {
+              "id": "hero-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "El futuro de tu empresa<br><span style=\"color: #0ea5e9; text-shadow: 0 0 20px rgba(14, 165, 233, 0.5);\">es inteligente</span>",
+                "size": "h1",
+                "color": "#f8fafc",
+                "typography_typography": "custom",
+                "typography_font_weight": "bold",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48,
+                  "sizes": {
+                    "tablet": 40,
+                    "mobile": 32
+                  }
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 24,
+                  "left": 0
+                },
+                "text_align": "center"
+              }
+            },
+            {
+              "id": "hero-description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Transformamos tu negocio con soluciones de IA personalizadas. Automatización inteligente, análisis predictivo y decisiones basadas en datos.</p>",
+                "align": "center",
+                "color": "#94a3b8",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 80
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": "auto",
+                  "bottom": 32,
+                  "left": "auto"
+                }
+              }
+            },
+            {
+              "id": "hero-buttons",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_justify_content": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16
+                }
+              },
+              "elements": [
+                {
+                  "id": "primary-button",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Comenzar ahora",
+                    "icon": {
+                      "value": "fas fa-arrow-right",
+                      "library": "fa-solid"
+                    },
+                    "icon_align": "right",
+                    "background_color": "#0ea5e9",
+                    "color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 8,
+                      "right": 8,
+                      "bottom": 8,
+                      "left": 8
+                    },
+                    "button_text_padding": {
+                      "unit": "px",
+                      "top": 16,
+                      "right": 32,
+                      "bottom": 16,
+                      "left": 32
+                    },
+                    "hover_background_color": "#0284c7"
+                  }
+                },
+                {
+                  "id": "secondary-button",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Ver casos de éxito",
+                    "button_type": "outline",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1
+                    },
+                    "border_color": "#0ea5e9",
+                    "color": "#0ea5e9",
+                    "typography_typography": "custom",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 8,
+                      "right": 8,
+                      "bottom": 8,
+                      "left": 8
+                    },
+                    "button_text_padding": {
+                      "unit": "px",
+                      "top": 16,
+                      "right": 32,
+                      "bottom": 16,
+                      "left": 32
+                    },
+                    "hover_background_color": "#0ea5e9",
+                    "hover_color": "#ffffff"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0f172a",
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "right": 20,
+          "bottom": 80,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "services-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "services-header",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "text_align": "center",
+                "margin": {
+                  "unit": "px",
+                  "bottom": 64
+                }
+              },
+              "elements": [
+                {
+                  "id": "services-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Servicios de <span style=\"color: #0ea5e9;\">IA Avanzada</span>",
+                    "size": "h2",
+                    "color": "#f8fafc",
+                    "typography_typography": "custom",
+                    "typography_font_weight": "bold",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48,
+                      "sizes": {
+                        "tablet": 36,
+                        "mobile": 28
+                      }
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 24
+                    }
+                  }
+                },
+                {
+                  "id": "services-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Soluciones inteligentes diseñadas para impulsar tu negocio hacia el futuro digital</p>",
+                    "color": "#94a3b8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 70
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "services-grid",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 32
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-1",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-cog",
+                      "library": "fa-solid"
+                    },
+                    "icon_color": "#0ea5e9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "title_text": "Automatización",
+                    "title_color": "#f8fafc",
+                    "description_text": "Procesos automatizados inteligentes que reducen costos operativos y aumentan la eficiencia.",
+                    "description_color": "#94a3b8",
+                    "background_background": "gradient",
+                    "background_color": "rgba(30, 41, 59, 0.8)",
+                    "background_color_b": "rgba(15, 23, 42, 0.9)",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1
+                    },
+                    "border_color": "rgba(14, 165, 233, 0.2)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 12,
+                      "bottom": 12,
+                      "left": 12
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 32,
+                      "right": 32,
+                      "bottom": 32,
+                      "left": 32
+                    },
+                    "hover_animation": "grow",
+                    "width": {
+                      "unit": "%",
+                      "size": 30,
+                      "sizes": {
+                        "tablet": 45,
+                        "mobile": 100
+                      }
+                    }
+                  }
+                },
+                {
+                  "id": "service-2",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-comment-dots",
+                      "library": "fa-solid"
+                    },
+                    "icon_color": "#0ea5e9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "title_text": "Chatbots Inteligentes",
+                    "title_color": "#f8fafc",
+                    "description_text": "Asistentes virtuales con procesamiento de lenguaje natural para mejorar la atención al cliente 24/7.",
+                    "description_color": "#94a3b8",
+                    "background_background": "gradient",
+                    "background_color": "rgba(30, 41, 59, 0.8)",
+                    "background_color_b": "rgba(15, 23, 42, 0.9)",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1
+                    },
+                    "border_color": "rgba(14, 165, 233, 0.2)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 12,
+                      "bottom": 12,
+                      "left": 12
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 32,
+                      "right": 32,
+                      "bottom": 32,
+                      "left": 32
+                    },
+                    "hover_animation": "grow",
+                    "width": {
+                      "unit": "%",
+                      "size": 30,
+                      "sizes": {
+                        "tablet": 45,
+                        "mobile": 100
+                      }
+                    }
+                  }
+                },
+                {
+                  "id": "service-3",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-chart-bar",
+                      "library": "fa-solid"
+                    },
+                    "icon_color": "#0ea5e9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "title_text": "Análisis Predictivo",
+                    "title_color": "#f8fafc",
+                    "description_text": "Insights avanzados y predicciones precisas para tomar decisiones estratégicas basadas en datos.",
+                    "description_color": "#94a3b8",
+                    "background_background": "gradient",
+                    "background_color": "rgba(30, 41, 59, 0.8)",
+                    "background_color_b": "rgba(15, 23, 42, 0.9)",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1
+                    },
+                    "border_color": "rgba(14, 165, 233, 0.2)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 12,
+                      "bottom": 12,
+                      "left": 12
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 32,
+                      "right": 32,
+                      "bottom": 32,
+                      "left": 32
+                    },
+                    "hover_animation": "grow",
+                    "width": {
+                      "unit": "%",
+                      "size": 30,
+                      "sizes": {
+                        "tablet": 45,
+                        "mobile": 100
+                      }
+                    }
+                  }
+                },
+                {
+                  "id": "service-4",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-shield-alt",
+                      "library": "fa-solid"
+                    },
+                    "icon_color": "#0ea5e9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "title_text": "IA Segura",
+                    "title_color": "#f8fafc",
+                    "description_text": "Implementaciones robustas con los más altos estándares de seguridad y privacidad de datos.",
+                    "description_color": "#94a3b8",
+                    "background_background": "gradient",
+                    "background_color": "rgba(30, 41, 59, 0.8)",
+                    "background_color_b": "rgba(15, 23, 42, 0.9)",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1
+                    },
+                    "border_color": "rgba(14, 165, 233, 0.2)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 12,
+                      "bottom": 12,
+                      "left": 12
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 32,
+                      "right": 32,
+                      "bottom": 32,
+                      "left": 32
+                    },
+                    "hover_animation": "grow",
+                    "width": {
+                      "unit": "%",
+                      "size": 40,
+                      "sizes": {
+                        "tablet": 45,
+                        "mobile": 100
+                      }
+                    }
+                  }
+                },
+                {
+                  "id": "service-5",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-bolt",
+                      "library": "fa-solid"
+                    },
+                    "icon_color": "#0ea5e9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "title_text": "Integración Rápida",
+                    "title_color": "#f8fafc",
+                    "description_text": "Soluciones plug-and-play que se integran seamlessly con tu infraestructura existente.",
+                    "description_color": "#94a3b8",
+                    "background_background": "gradient",
+                    "background_color": "rgba(30, 41, 59, 0.8)",
+                    "background_color_b": "rgba(15, 23, 42, 0.9)",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1
+                    },
+                    "border_color": "rgba(14, 165, 233, 0.2)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 12,
+                      "bottom": 12,
+                      "left": 12
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 32,
+                      "right": 32,
+                      "bottom": 32,
+                      "left": 32
+                    },
+                    "hover_animation": "grow",
+                    "width": {
+                      "unit": "%",
+                      "size": 40,
+                      "sizes": {
+                        "tablet": 45,
+                        "mobile": 100
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "rgba(30, 41, 59, 0.2)",
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "right": 20,
+          "bottom": 80,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "about-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 64
+            },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "about-content",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 60,
+                  "sizes": {
+                    "tablet": 100
+                  }
+                }
+              },
+              "elements": [
+                {
+                  "id": "about-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Escalando empresas con <span style=\"color: #0ea5e9;\">Inteligencia Artificial</span>",
+                    "size": "h2",
+                    "color": "#f8fafc",
+                    "typography_typography": "custom",
+                    "typography_font_weight": "bold",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48,
+                      "sizes": {
+                        "tablet": 36,
+                        "mobile": 28
+                      }
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 24
+                    }
+                  }
+                },
+                {
+                  "id": "about-text-1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>En OmcIA somos una empresa joven con una pasión desbordante por la inteligencia artificial y su poder para escalar negocios. Aunque estamos empezando nuestro camino, nuestro enfoque especializado en IA empresarial nos ha permitido entregar resultados excepcionales desde el primer día.</p>",
+                    "color": "#94a3b8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 24
+                    }
+                  }
+                },
+                {
+                  "id": "about-text-2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Nuestras empresas clientes están encantadas con nuestro servicio y profesionalidad. Nos dedicamos a resolver todo tipo de problemas empresariales y ayudar a mejorar procesos existentes mediante soluciones de IA innovadoras y personalizadas. Cada proyecto es una oportunidad para demostrar que la experiencia se construye con dedicación y resultados.</p>",
+                    "color": "#94a3b8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 32
+                    }
+                  }
+                },
+                {
+                  "id": "stats-grid",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 24
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "stat-1",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "settings": {
+                        "ending_number": 15,
+                        "prefix": "",
+                        "suffix": "+",
+                        "title": "Proyectos Entregados",
+                        "number_color": "#f8fafc",
+                        "title_color": "#94a3b8",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_font_weight": "bold",
+                        "background_background": "gradient",
+                        "background_color": "rgba(30, 41, 59, 0.8)",
+                        "background_color_b": "rgba(15, 23, 42, 0.9)",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1
+                        },
+                        "border_color": "rgba(14, 165, 233, 0.2)",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 12,
+                          "left": 12
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": 24,
+                          "right": 24,
+                          "bottom": 24,
+                          "left": 24
+                        },
+                        "width": {
+                          "unit": "%",
+                          "size": 48,
+                          "sizes": {
+                            "mobile": 100
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "id": "stat-2",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "settings": {
+                        "ending_number": 100,
+                        "prefix": "",
+                        "suffix": "%",
+                        "title": "Satisfacción del Cliente",
+                        "number_color": "#f8fafc",
+                        "title_color": "#94a3b8",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_font_weight": "bold",
+                        "background_background": "gradient",
+                        "background_color": "rgba(30, 41, 59, 0.8)",
+                        "background_color_b": "rgba(15, 23, 42, 0.9)",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1
+                        },
+                        "border_color": "rgba(14, 165, 233, 0.2)",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 12,
+                          "left": 12
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": 24,
+                          "right": 24,
+                          "bottom": 24,
+                          "left": 24
+                        },
+                        "width": {
+                          "unit": "%",
+                          "size": 48,
+                          "sizes": {
+                            "mobile": 100
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "id": "stat-3",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "settings": {
+                        "ending_number": 2,
+                        "prefix": "",
+                        "suffix": "+",
+                        "title": "Años de Experiencia",
+                        "number_color": "#f8fafc",
+                        "title_color": "#94a3b8",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_font_weight": "bold",
+                        "background_background": "gradient",
+                        "background_color": "rgba(30, 41, 59, 0.8)",
+                        "background_color_b": "rgba(15, 23, 42, 0.9)",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1
+                        },
+                        "border_color": "rgba(14, 165, 233, 0.2)",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 12,
+                          "left": 12
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": 24,
+                          "right": 24,
+                          "bottom": 24,
+                          "left": 24
+                        },
+                        "width": {
+                          "unit": "%",
+                          "size": 48,
+                          "sizes": {
+                            "mobile": 100
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "id": "stat-4",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "settings": {
+                        "ending_number": 15,
+                        "prefix": "",
+                        "suffix": "+",
+                        "title": "Empresas Atendidas",
+                        "number_color": "#f8fafc",
+                        "title_color": "#94a3b8",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "typography_font_weight": "bold",
+                        "background_background": "gradient",
+                        "background_color": "rgba(30, 41, 59, 0.8)",
+                        "background_color_b": "rgba(15, 23, 42, 0.9)",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": 1,
+                          "right": 1,
+                          "bottom": 1,
+                          "left": 1
+                        },
+                        "border_color": "rgba(14, 165, 233, 0.2)",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 12,
+                          "left": 12
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": 24,
+                          "right": 24,
+                          "bottom": 24,
+                          "left": 24
+                        },
+                        "width": {
+                          "unit": "%",
+                          "size": 48,
+                          "sizes": {
+                            "mobile": 100
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "about-visual",
+              "elType": "container",
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 40,
+                  "sizes": {
+                    "tablet": 100
+                  }
+                },
+                "flex_direction": "column",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "ai-logo",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div style=\"aspect-ratio: 1; background: linear-gradient(135deg, rgba(14, 165, 233, 0.2), rgba(168, 85, 247, 0.2)); border-radius: 16px; padding: 32px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;\"><div style=\"font-size: 64px; font-weight: bold; color: #0ea5e9; text-shadow: 0 0 20px rgba(14, 165, 233, 0.5); margin-bottom: 16px;\">IA</div><p style=\"color: #94a3b8; margin: 0;\">Creciendo juntos<br>hacia el éxito</p></div>",
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0f172a",
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "right": 20,
+          "bottom": 80,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "contact-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "contact-header",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "text_align": "center",
+                "margin": {
+                  "unit": "px",
+                  "bottom": 48
+                }
+              },
+              "elements": [
+                {
+                  "id": "contact-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "¿Listo para <span style=\"color: #0ea5e9;\">transformar</span> tu negocio?",
+                    "size": "h2",
+                    "color": "#f8fafc",
+                    "typography_typography": "custom",
+                    "typography_font_weight": "bold",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48,
+                      "sizes": {
+                        "tablet": 36,
+                        "mobile": 28
+                      }
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 24
+                    }
+                  }
+                },
+                {
+                  "id": "contact-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Contáctanos hoy y descubre cómo la inteligencia artificial puede revolucionar tu empresa</p>",
+                    "color": "#94a3b8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "contact-content",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 48
+                }
+              },
+              "elements": [
+                {
+                  "id": "contact-form",
+                  "elType": "widget",
+                  "widgetType": "form",
+                  "settings": {
+                    "form_name": "Contacto OmcIA",
+                    "form_fields": [
+                      {
+                        "custom_id": "name",
+                        "field_type": "text",
+                        "field_label": "Tu nombre",
+                        "placeholder": "Tu nombre",
+                        "required": true,
+                        "width": "50"
+                      },
+                      {
+                        "custom_id": "email",
+                        "field_type": "email",
+                        "field_label": "Tu email",
+                        "placeholder": "Tu email",
+                        "required": true,
+                        "width": "50"
+                      },
+                      {
+                        "custom_id": "company",
+                        "field_type": "text",
+                        "field_label": "Tu empresa",
+                        "placeholder": "Tu empresa",
+                        "required": false,
+                        "width": "100"
+                      },
+                      {
+                        "custom_id": "message",
+                        "field_type": "textarea",
+                        "field_label": "Mensaje",
+                        "placeholder": "Cuéntanos sobre tu proyecto...",
+                        "required": true,
+                        "width": "100",
+                        "rows": 5
+                      }
+                    ],
+                    "button_text": "Enviar mensaje",
+                    "button_size": "md",
+                    "input_size": "md",
+                    "form_style": "default",
+                    "label_color": "#f8fafc",
+                    "input_background_color": "#0f172a",
+                    "input_text_color": "#f8fafc",
+                    "input_border_color": "#334155",
+                    "input_border_radius": {
+                      "unit": "px",
+                      "top": 8,
+                      "right": 8,
+                      "bottom": 8,
+                      "left": 8
+                    },
+                    "button_background_color": "#0ea5e9",
+                    "button_text_color": "#ffffff",
+                    "background_background": "gradient",
+                    "background_color": "rgba(30, 41, 59, 0.8)",
+                    "background_color_b": "rgba(15, 23, 42, 0.9)",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": 1,
+                      "right": 1,
+                      "bottom": 1,
+                      "left": 1
+                    },
+                    "border_color": "rgba(14, 165, 233, 0.2)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 12,
+                      "bottom": 12,
+                      "left": 12
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 32,
+                      "right": 32,
+                      "bottom": 32,
+                      "left": 32
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 60,
+                      "sizes": {
+                        "tablet": 100
+                      }
+                    }
+                  }
+                },
+                {
+                  "id": "contact-info",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "width": {
+                      "unit": "%",
+                      "size": 40,
+                      "sizes": {
+                        "tablet": 100
+                      }
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "contact-info-title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Información de contacto",
+                        "size": "h3",
+                        "color": "#f8fafc",
+                        "typography_typography": "custom",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "bottom": 24
+                        }
+                      }
+                    },
+                    {
+                      "id": "contact-items",
+                      "elType": "container",
+                      "settings": {
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 24
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "bottom": 32
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "contact-email",
+                          "elType": "widget",
+                          "widgetType": "icon-list",
+                          "settings": {
+                            "icon_list": [
+                              {
+                                "text": "oscar.iaconsulting@gmail.com",
+                                "selected_icon": {
+                                  "value": "fas fa-envelope",
+                                  "library": "fa-solid"
+                                },
+                                "link": {
+                                  "url": "mailto:oscar.iaconsulting@gmail.com"
+                                }
+                              }
+                            ],
+                            "icon_color": "#0ea5e9",
+                            "text_color": "#94a3b8",
+                            "space_between": {
+                              "unit": "px",
+                              "size": 16
+                            }
+                          }
+                        },
+                        {
+                          "id": "contact-phone",
+                          "elType": "widget",
+                          "widgetType": "icon-list",
+                          "settings": {
+                            "icon_list": [
+                              {
+                                "text": "+34 684 403 453",
+                                "selected_icon": {
+                                  "value": "fas fa-phone",
+                                  "library": "fa-solid"
+                                },
+                                "link": {
+                                  "url": "tel:+34684403453"
+                                }
+                              }
+                            ],
+                            "icon_color": "#0ea5e9",
+                            "text_color": "#94a3b8",
+                            "space_between": {
+                              "unit": "px",
+                              "size": 16
+                            }
+                          }
+                        },
+                        {
+                          "id": "contact-location",
+                          "elType": "widget",
+                          "widgetType": "icon-list",
+                          "settings": {
+                            "icon_list": [
+                              {
+                                "text": "Sanxenxo",
+                                "selected_icon": {
+                                  "value": "fas fa-map-marker-alt",
+                                  "library": "fa-solid"
+                                }
+                              }
+                            ],
+                            "icon_color": "#0ea5e9",
+                            "text_color": "#94a3b8",
+                            "space_between": {
+                              "unit": "px",
+                              "size": 16
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "consultation-card",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"background: linear-gradient(145deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.9)); border: 1px solid rgba(14, 165, 233, 0.2); border-radius: 12px; padding: 24px;\"><h4 style=\"font-size: 18px; font-weight: 600; margin-bottom: 16px; color: #f8fafc;\">Consulta gratuita</h4><p style=\"color: #94a3b8; margin-bottom: 16px;\">Agenda una consulta gratuita de 30 minutos para discutir cómo la IA puede transformar tu negocio.</p><a href=\"#\" style=\"display: inline-block; background: linear-gradient(to right, #0ea5e9, #a855f7); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600;\">Agendar consulta</a></div>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "rgba(30, 41, 59, 0.1)",
+        "border_border": "solid",
+        "border_width": {
+          "top": "1",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        },
+        "border_color": "#334155",
+        "padding": {
+          "unit": "px",
+          "top": 48,
+          "right": 20,
+          "bottom": 48,
+          "left": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 48
+            }
+          },
+          "elements": [
+            {
+              "id": "footer-brand",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 50,
+                  "sizes": {
+                    "tablet": 100
+                  }
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-logo",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Omc<span style=\"color: #f8fafc;\">IA</span>",
+                    "size": "h3",
+                    "color": "#0ea5e9",
+                    "typography_typography": "custom",
+                    "typography_font_weight": "bold",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "text_shadow_text_shadow_type": "yes",
+                    "text_shadow_text_shadow": {
+                      "horizontal": 0,
+                      "vertical": 0,
+                      "blur": 20,
+                      "color": "rgba(14, 165, 233, 0.5)"
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 24
+                    }
+                  }
+                },
+                {
+                  "id": "footer-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Transformamos empresas con soluciones de inteligencia artificial innovadoras, seguras y escalables para el futuro digital.</p>",
+                    "color": "#94a3b8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 24
+                    }
+                  }
+                },
+                {
+                  "id": "social-links",
+                  "elType": "widget",
+                  "widgetType": "social-icons",
+                  "settings": {
+                    "social_icon_list": [
+                      {
+                        "social": "linkedin",
+                        "link": {
+                          "url": "#"
+                        }
+                      },
+                      {
+                        "social": "twitter",
+                        "link": {
+                          "url": "#"
+                        }
+                      },
+                      {
+                        "social": "github",
+                        "link": {
+                          "url": "#"
+                        }
+                      },
+                      {
+                        "social": "envelope",
+                        "link": {
+                          "url": "mailto:oscar.iaconsulting@gmail.com"
+                        }
+                      }
+                    ],
+                    "icon_color": "#0ea5e9",
+                    "icon_background_color": "rgba(14, 165, 233, 0.1)",
+                    "icon_hover_color": "#0ea5e9",
+                    "icon_hover_background_color": "rgba(14, 165, 233, 0.2)",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 50,
+                      "right": 50,
+                      "bottom": 50,
+                      "left": 50
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-services",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": {
+                    "tablet": 50,
+                    "mobile": 100
+                  }
+                }
+              },
+              "elements": [
+                {
+                  "id": "services-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Servicios",
+                    "size": "h4",
+                    "color": "#f8fafc",
+                    "typography_typography": "custom",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 16
+                    }
+                  }
+                },
+                {
+                  "id": "services-links",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Automatización",
+                        "link": {
+                          "url": "#servicios"
+                        }
+                      },
+                      {
+                        "text": "Chatbots",
+                        "link": {
+                          "url": "#servicios"
+                        }
+                      },
+                      {
+                        "text": "Análisis Predictivo",
+                        "link": {
+                          "url": "#servicios"
+                        }
+                      },
+                      {
+                        "text": "IA Segura",
+                        "link": {
+                          "url": "#servicios"
+                        }
+                      }
+                    ],
+                    "text_color": "#94a3b8",
+                    "text_hover_color": "#0ea5e9",
+                    "space_between": {
+                      "unit": "px",
+                      "size": 8
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "footer-company",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": {
+                    "tablet": 50,
+                    "mobile": 100
+                  }
+                }
+              },
+              "elements": [
+                {
+                  "id": "company-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Empresa",
+                    "size": "h4",
+                    "color": "#f8fafc",
+                    "typography_typography": "custom",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "bottom": 16
+                    }
+                  }
+                },
+                {
+                  "id": "company-links",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Sobre nosotros",
+                        "link": {
+                          "url": "#nosotros"
+                        }
+                      },
+                      {
+                        "text": "Casos de éxito",
+                        "link": {
+                          "url": "#"
+                        }
+                      },
+                      {
+                        "text": "Contacto",
+                        "link": {
+                          "url": "#contacto"
+                        }
+                      },
+                      {
+                        "text": "Blog",
+                        "link": {
+                          "url": "#"
+                        }
+                      }
+                    ],
+                    "text_color": "#94a3b8",
+                    "text_hover_color": "#0ea5e9",
+                    "space_between": {
+                      "unit": "px",
+                      "size": 8
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "footer-bottom",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "border_border": "solid",
+            "border_width": {
+              "top": "1",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "border_color": "#334155",
+            "margin": {
+              "unit": "px",
+              "top": 32
+            },
+            "padding": {
+              "unit": "px",
+              "top": 32,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "text_align": "center"
+          },
+          "elements": [
+            {
+              "id": "copyright",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>&copy; 2024 OmcIA. Todos los derechos reservados.</p>",
+                "color": "#94a3b8",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
