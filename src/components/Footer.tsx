@@ -7,8 +7,16 @@ export const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <div className="text-2xl font-bold text-ai-500 glow-text mb-4">
-              Omc<span className="text-white">IA</span>
+            <div className="flex items-center mb-4">
+              <img 
+                src="/lovable-uploads/16a43edc-1f1f-453d-8b89-85ccae26155b.png" 
+                alt="SOLPORIA Logo" 
+                className="w-8 h-8 mr-2"
+              />
+              <div className="text-2xl font-bold">
+                <span className="text-ai-500 glow-text">SOLPOR</span>
+                <span className="text-white">IA</span>
+              </div>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
               Transformamos empresas con soluciones de inteligencia artificial innovadoras, 
@@ -33,10 +41,10 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold text-foreground mb-4">Servicios</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#" className="hover:text-ai-500 transition-colors">Machine Learning</a></li>
+              <li><a href="#" className="hover:text-ai-500 transition-colors">Automatización</a></li>
               <li><a href="#" className="hover:text-ai-500 transition-colors">Chatbots</a></li>
               <li><a href="#" className="hover:text-ai-500 transition-colors">Análisis Predictivo</a></li>
-              <li><a href="#" className="hover:text-ai-500 transition-colors">Automatización</a></li>
+              <li><a href="#" className="hover:text-ai-500 transition-colors">IA Segura</a></li>
             </ul>
           </div>
 
@@ -52,7 +60,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 OmcIA. Todos los derechos reservados.</p>
+          <p>&copy; 2024 SOLPORIA. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

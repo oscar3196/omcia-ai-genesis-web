@@ -10,8 +10,16 @@ export const Header = () => {
     <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-ai-500 glow-text">
-            Omc<span className="text-white">IA</span>
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/16a43edc-1f1f-453d-8b89-85ccae26155b.png" 
+              alt="SOLPORIA Logo" 
+              className="w-8 h-8 mr-2"
+            />
+            <div className="text-2xl font-bold">
+              <span className="text-ai-500 glow-text">SOLPOR</span>
+              <span className="text-white">IA</span>
+            </div>
           </div>
           
           {/* Desktop Navigation */}

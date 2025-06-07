@@ -19,7 +19,7 @@ export const About = () => {
               Escalando empresas con <span className="text-ai-500 glow-text">Inteligencia Artificial</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              En OmcIA somos una empresa joven con una pasión desbordante por la inteligencia artificial 
+              En SOLPORIA somos una empresa joven con una pasión desbordante por la inteligencia artificial 
               y su poder para escalar negocios. Aunque estamos empezando nuestro camino, nuestro enfoque 
               especializado en IA empresarial nos ha permitido entregar resultados excepcionales desde 
               el primer día.
