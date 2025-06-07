@@ -1,4 +1,3 @@
-
 import { Linkedin, Twitter, Github, Mail } from "lucide-react";
 
 export const Footer = () => {
@@ -11,7 +10,7 @@ export const Footer = () => {
               <img 
                 src="/lovable-uploads/16a43edc-1f1f-453d-8b89-85ccae26155b.png" 
                 alt="SOLPORIA Logo" 
-                className="w-8 h-8 mr-2"
+                className="w-8 h-8 mr-2 brightness-0 invert"
               />
               <div className="text-2xl font-bold">
                 <span className="text-ai-500 glow-text">SOLPOR</span>
