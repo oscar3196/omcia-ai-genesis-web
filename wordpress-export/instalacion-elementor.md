@@ -1,7 +1,7 @@
 
 # 📦 Instalación con Elementor
 
-Guía paso a paso para importar la plantilla OmcIA en WordPress usando Elementor.
+Guía paso a paso para importar la plantilla SOLPORIA en WordPress usando Elementor.
 
 ## 🔧 Requisitos Previos
 
@@ -28,7 +28,7 @@ Instalar los siguientes plugins desde **Plugins → Añadir nuevo**:
 
 ### Paso 1: Descargar el Archivo Template
 
-1. Descarga el archivo: `omcia-elementor-template.json`
+1. Descarga el archivo: `solporia-elementor-template.json`
 2. Guarda el archivo en tu ordenador
 
 ### Paso 2: Acceder a WordPress
@@ -39,7 +39,7 @@ Instalar los siguientes plugins desde **Plugins → Añadir nuevo**:
 ### Paso 3: Crear Nueva Página
 
 1. **Páginas → Añadir nueva**
-2. **Título:** "OmcIA - Consultoría en IA"
+2. **Título:** "SOLPORIA - Consultoría en IA"
 3. **Editar con Elementor** (botón azul)
 
 ### Paso 4: Importar Template
@@ -49,7 +49,7 @@ En el editor de Elementor:
 1. Click en **⚙️ (configuración)** en la esquina superior izquierda
 2. Seleccionar **Importar/Exportar**
 3. Click en **Importar Template**
-4. **Seleccionar archivo** → Elegir `omcia-elementor-template.json`
+4. **Seleccionar archivo** → Elegir `solporia-elementor-template.json`
 5. Click **Importar ahora**
 6. Esperar que termine la importación
 7. **Insertar** la plantilla importada
@@ -200,7 +200,7 @@ Instalar plugin de cache:
 - [ ] Plugin de cache instalado
 - [ ] Página publicada y visible
 
-¡Tu sitio OmcIA con Elementor está listo! 🚀
+¡Tu sitio SOLPORIA con Elementor está listo! 🚀
 
 ---
 
@@ -208,7 +208,5 @@ Instalar plugin de cache:
 
 Si necesitas ayuda adicional:
 
-- **Email:** oscar.iaconsulting@gmail.com
+- **Email:** contacto@solporia.com
 - **Teléfono:** +34 684 403 453
-
-```

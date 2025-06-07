@@ -1,0 +1,1341 @@
+
+{
+  "version": "2.0",
+  "title": "SOLPORIA - Landing Page IA",
+  "type": "page",
+  "author": "Lovable AI",
+  "generator": "elementor/3.18.0",
+  "image": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyNCIgaGVpZ2h0PSI1NzYiIHZpZXdCb3g9IjAgMCAxMDI0IDU3NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGVsZSBmaWxsLWVmZmVjdD0ibm9uZSIgZmlsbD0iIzBGMTcyQSIvPgo8L3N2Zz4K",
+  "thumbnail": "",
+  "date": "2024-12-07 12:00:00",
+  "page_settings": [],
+  "content": [
+    {
+      "id": "header-section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "rgba(15, 23, 42, 0.9)",
+        "backdrop_filter_blur": {
+          "unit": "px",
+          "size": 10
+        },
+        "border_border": "solid",
+        "border_color": "#334155",
+        "border_width": {
+          "unit": "px",
+          "top": "0",
+          "right": "0", 
+          "bottom": "1",
+          "left": "0"
+        },
+        "position": "fixed",
+        "z_index": 50,
+        "width": {
+          "unit": "%",
+          "size": 100
+        }
+      },
+      "elements": [
+        {
+          "id": "header-container",
+          "settings": {
+            "layout": "boxed",
+            "content_width": {
+              "unit": "px",
+              "size": 1200
+            }
+          },
+          "elements": [
+            {
+              "id": "header-row",
+              "settings": {
+                "layout": "one-column"
+              },
+              "elements": [
+                {
+                  "id": "header-content",
+                  "settings": {
+                    "display": "flex",
+                    "align_items": "center",
+                    "justify_content": "space-between",
+                    "padding": {
+                      "unit": "rem",
+                      "top": "1",
+                      "right": "0",
+                      "bottom": "1", 
+                      "left": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "logo",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "SOLPOR<span style='color: #f8fafc;'>IA</span>",
+                        "size": "h3",
+                        "color": "#0ea5e9",
+                        "typography_font_weight": "700",
+                        "text_shadow_text_shadow": {
+                          "horizontal": 0,
+                          "vertical": 0,
+                          "blur": 20,
+                          "color": "rgba(14, 165, 233, 0.5)"
+                        }
+                      }
+                    },
+                    {
+                      "id": "nav-menu",
+                      "elType": "widget", 
+                      "widgetType": "nav-menu",
+                      "settings": {
+                        "menu": "main-menu",
+                        "layout": "horizontal",
+                        "align_items": "center",
+                        "pointer": "none",
+                        "color_text": "#f8fafc",
+                        "color_text_hover": "#0ea5e9",
+                        "responsive_settings": {
+                          "mobile": {
+                            "display": "none"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "id": "header-cta",
+                      "elType": "widget",
+                      "widgetType": "button", 
+                      "settings": {
+                        "text": "Consulta Gratuita",
+                        "background_color": "#0ea5e9",
+                        "button_text_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "rem",
+                          "size": 0.5
+                        },
+                        "responsive_settings": {
+                          "mobile": {
+                            "display": "none"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero-section",
+      "settings": {
+        "min_height": {
+          "unit": "vh",
+          "size": 100
+        },
+        "display": "flex",
+        "align_items": "center",
+        "justify_content": "center",
+        "background_background": "gradient",
+        "background_color": "#0f172a",
+        "background_color_b": "#0c4a6e",
+        "background_gradient_angle": 135,
+        "position": "relative",
+        "overflow": "hidden"
+      },
+      "elements": [
+        {
+          "id": "hero-container",
+          "settings": {
+            "layout": "boxed",
+            "content_width": {
+              "unit": "px", 
+              "size": 1200
+            }
+          },
+          "elements": [
+            {
+              "id": "hero-row",
+              "settings": {
+                "layout": "one-column"
+              },
+              "elements": [
+                {
+                  "id": "hero-content",
+                  "settings": {
+                    "text_align": "center",
+                    "position": "relative",
+                    "z_index": 10,
+                    "max_width": {
+                      "unit": "rem",
+                      "size": 64
+                    },
+                    "margin": "0 auto"
+                  },
+                  "elements": [
+                    {
+                      "id": "hero-badge",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style='display: flex; align-items: center; justify-content: center; gap: 0.5rem; margin-bottom: 1.5rem; color: #0ea5e9; font-weight: 600;'><i class='fas fa-sparkles'></i><span>Inteligencia Artificial Empresarial</span></div>"
+                      }
+                    },
+                    {
+                      "id": "hero-title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Automatizamos tu crecimiento<br><span style='color: #0ea5e9; text-shadow: 0 0 20px rgba(14, 165, 233, 0.5);'>con IA</span>",
+                        "size": "h1",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 5
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.2
+                        },
+                        "margin": {
+                          "unit": "rem",
+                          "bottom": "1.5"
+                        }
+                      }
+                    },
+                    {
+                      "id": "hero-description", 
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-size: 1.25rem; color: #94a3b8; margin-bottom: 2rem; max-width: 48rem; margin-left: auto; margin-right: auto;'>En SOLPORIA transformamos tu negocio con soluciones de IA personalizadas. Automatización inteligente, análisis predictivo y decisiones basadas en datos.</p>"
+                      }
+                    },
+                    {
+                      "id": "hero-buttons",
+                      "settings": {
+                        "display": "flex",
+                        "flex_direction": "row",
+                        "gap": "1rem",
+                        "justify_content": "center",
+                        "align_items": "center",
+                        "responsive_settings": {
+                          "mobile": {
+                            "flex_direction": "column"
+                          }
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "hero-cta-primary",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "Comenzar ahora",
+                            "size": "lg",
+                            "background_color": "#0ea5e9",
+                            "button_text_color": "#ffffff",
+                            "border_radius": {
+                              "unit": "rem",
+                              "size": 0.5
+                            },
+                            "padding": {
+                              "unit": "rem",
+                              "top": "1",
+                              "right": "2",
+                              "bottom": "1",
+                              "left": "2"
+                            },
+                            "selected_icon": {
+                              "value": "fas fa-arrow-right",
+                              "library": "fa-solid"
+                            },
+                            "icon_align": "right"
+                          }
+                        },
+                        {
+                          "id": "hero-cta-secondary",
+                          "elType": "widget", 
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "Ver casos de éxito",
+                            "size": "lg",
+                            "button_type": "outline",
+                            "border_color": "#0ea5e9",
+                            "button_text_color": "#0ea5e9",
+                            "button_background_hover_color": "#0ea5e9",
+                            "button_hover_color": "#ffffff",
+                            "border_radius": {
+                              "unit": "rem",
+                              "size": 0.5
+                            },
+                            "padding": {
+                              "unit": "rem",
+                              "top": "1",
+                              "right": "2",
+                              "bottom": "1",
+                              "left": "2"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-section",
+      "settings": {
+        "padding": {
+          "unit": "rem",
+          "top": "5",
+          "right": "0",
+          "bottom": "5",
+          "left": "0"
+        },
+        "background_color": "#0f172a"
+      },
+      "elements": [
+        {
+          "id": "services-container",
+          "settings": {
+            "layout": "boxed",
+            "content_width": {
+              "unit": "px",
+              "size": 1200
+            }
+          },
+          "elements": [
+            {
+              "id": "services-header",
+              "settings": {
+                "text_align": "center",
+                "margin": {
+                  "unit": "rem",
+                  "bottom": "4"
+                }
+              },
+              "elements": [
+                {
+                  "id": "services-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Servicios de <span style='color: #0ea5e9;'>IA Avanzada</span>",
+                    "size": "h2",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 3
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "rem",
+                      "bottom": "1.5"
+                    }
+                  }
+                },
+                {
+                  "id": "services-subtitle",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-size: 1.25rem; color: #94a3b8; max-width: 48rem; margin: 0 auto;'>Soluciones inteligentes diseñadas para impulsar tu negocio hacia el futuro digital</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "services-grid",
+              "settings": {
+                "display": "grid",
+                "grid_template_columns": "repeat(auto-fit, minmax(300px, 1fr))",
+                "gap": "2rem",
+                "responsive_settings": {
+                  "tablet": {
+                    "grid_template_columns": "repeat(2, 1fr)"
+                  },
+                  "mobile": {
+                    "grid_template_columns": "1fr"
+                  }
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-automation",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-cog",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Automatización",
+                    "description_text": "Procesos automatizados inteligentes que reducen costos operativos y aumentan la eficiencia.",
+                    "position": "top",
+                    "icon_color": "#0ea5e9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 64
+                    },
+                    "title_color": "#f8fafc",
+                    "description_color": "#94a3b8",
+                    "background_background": "gradient",
+                    "background_color": "rgba(30, 41, 59, 0.8)",
+                    "background_color_b": "rgba(15, 23, 42, 0.9)",
+                    "border_border": "solid",
+                    "border_color": "rgba(14, 165, 233, 0.2)",
+                    "border_radius": {
+                      "unit": "rem",
+                      "size": 0.75
+                    },
+                    "padding": {
+                      "unit": "rem",
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    },
+                    "_hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "service-chatbots",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-comments",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Chatbots Inteligentes",
+                    "description_text": "Asistentes virtuales con procesamiento de lenguaje natural para mejorar la atención al cliente 24/7.",
+                    "position": "top",
+                    "icon_color": "#0ea5e9",
+                    "icon_size": {
+                      "unit": "px", 
+                      "size": 64
+                    },
+                    "title_color": "#f8fafc",
+                    "description_color": "#94a3b8",
+                    "background_background": "gradient",
+                    "background_color": "rgba(30, 41, 59, 0.8)",
+                    "background_color_b": "rgba(15, 23, 42, 0.9)",
+                    "border_border": "solid",
+                    "border_color": "rgba(14, 165, 233, 0.2)",
+                    "border_radius": {
+                      "unit": "rem",
+                      "size": 0.75
+                    },
+                    "padding": {
+                      "unit": "rem",
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    },
+                    "_hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "service-analytics",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-chart-bar",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Análisis Predictivo",
+                    "description_text": "Insights avanzados y predicciones precisas para tomar decisiones estratégicas basadas en datos.",
+                    "position": "top",
+                    "icon_color": "#0ea5e9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 64
+                    },
+                    "title_color": "#f8fafc",
+                    "description_color": "#94a3b8",
+                    "background_background": "gradient",
+                    "background_color": "rgba(30, 41, 59, 0.8)",
+                    "background_color_b": "rgba(15, 23, 42, 0.9)",
+                    "border_border": "solid",
+                    "border_color": "rgba(14, 165, 233, 0.2)",
+                    "border_radius": {
+                      "unit": "rem",
+                      "size": 0.75
+                    },
+                    "padding": {
+                      "unit": "rem",
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    },
+                    "_hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "service-security",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-shield-alt",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "IA Segura",
+                    "description_text": "Implementaciones robustas con los más altos estándares de seguridad y privacidad de datos.",
+                    "position": "top",
+                    "icon_color": "#0ea5e9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 64
+                    },
+                    "title_color": "#f8fafc",
+                    "description_color": "#94a3b8",
+                    "background_background": "gradient",
+                    "background_color": "rgba(30, 41, 59, 0.8)",
+                    "background_color_b": "rgba(15, 23, 42, 0.9)",
+                    "border_border": "solid",
+                    "border_color": "rgba(14, 165, 233, 0.2)",
+                    "border_radius": {
+                      "unit": "rem",
+                      "size": 0.75
+                    },
+                    "padding": {
+                      "unit": "rem",
+                      "top": "2",
+                      "right": "2", 
+                      "bottom": "2",
+                      "left": "2"
+                    },
+                    "_hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "service-integration",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-bolt",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Integración Rápida",
+                    "description_text": "Soluciones plug-and-play que se integran seamlessly con tu infraestructura existente.",
+                    "position": "top",
+                    "icon_color": "#0ea5e9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 64
+                    },
+                    "title_color": "#f8fafc",
+                    "description_color": "#94a3b8",
+                    "background_background": "gradient",
+                    "background_color": "rgba(30, 41, 59, 0.8)",
+                    "background_color_b": "rgba(15, 23, 42, 0.9)",
+                    "border_border": "solid",
+                    "border_color": "rgba(14, 165, 233, 0.2)",
+                    "border_radius": {
+                      "unit": "rem",
+                      "size": 0.75
+                    },
+                    "padding": {
+                      "unit": "rem",
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    },
+                    "_hover_animation": "grow"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-section",
+      "settings": {
+        "padding": {
+          "unit": "rem",
+          "top": "5",
+          "right": "0",
+          "bottom": "5",
+          "left": "0"
+        },
+        "background_color": "rgba(30, 41, 59, 0.2)"
+      },
+      "elements": [
+        {
+          "id": "about-container",
+          "settings": {
+            "layout": "boxed",
+            "content_width": {
+              "unit": "px",
+              "size": 1200
+            }
+          },
+          "elements": [
+            {
+              "id": "about-row",
+              "settings": {
+                "layout": "two-columns",
+                "gap": "4rem",
+                "align_items": "center",
+                "responsive_settings": {
+                  "tablet": {
+                    "layout": "one-column"
+                  }
+                }
+              },
+              "elements": [
+                {
+                  "id": "about-content",
+                  "elements": [
+                    {
+                      "id": "about-title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Escalando empresas con <span style='color: #0ea5e9;'>Inteligencia Artificial</span>",
+                        "size": "h2",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 3
+                        },
+                        "typography_font_weight": "700",
+                        "margin": {
+                          "unit": "rem",
+                          "bottom": "1.5"
+                        }
+                      }
+                    },
+                    {
+                      "id": "about-description",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='font-size: 1.125rem; color: #94a3b8; margin-bottom: 1.5rem;'>En SOLPORIA somos una empresa joven con una pasión desbordante por la inteligencia artificial y su poder para escalar negocios. Aunque estamos empezando nuestro camino, nuestro enfoque especializado en IA empresarial nos ha permitido entregar resultados excepcionales desde el primer día.</p><p style='font-size: 1.125rem; color: #94a3b8; margin-bottom: 1.5rem;'>Nuestras empresas clientes están encantadas con nuestro servicio y profesionalidad. Nos dedicamos a resolver todo tipo de problemas empresariales y ayudar a mejorar procesos existentes mediante soluciones de IA innovadoras y personalizadas. Cada proyecto es una oportunidad para demostrar que la experiencia se construye con dedicación y resultados.</p>"
+                      }
+                    },
+                    {
+                      "id": "stats-grid",
+                      "settings": {
+                        "display": "grid",
+                        "grid_template_columns": "repeat(2, 1fr)",
+                        "gap": "1.5rem"
+                      },
+                      "elements": [
+                        {
+                          "id": "stat-projects",
+                          "elType": "widget",
+                          "widgetType": "counter",
+                          "settings": {
+                            "ending_number": 15,
+                            "prefix": "",
+                            "suffix": "+",
+                            "duration": 2000,
+                            "thousand_separator": ",",
+                            "title": "Proyectos Entregados",
+                            "number_color": "#f8fafc",
+                            "title_color": "#94a3b8",
+                            "background_background": "gradient",
+                            "background_color": "rgba(30, 41, 59, 0.8)",
+                            "background_color_b": "rgba(15, 23, 42, 0.9)",
+                            "border_border": "solid",
+                            "border_color": "rgba(14, 165, 233, 0.2)",
+                            "border_radius": {
+                              "unit": "rem",
+                              "size": 0.75
+                            },
+                            "padding": {
+                              "unit": "rem",
+                              "top": "1.5",
+                              "right": "1.5",
+                              "bottom": "1.5",
+                              "left": "1.5"
+                            },
+                            "text_align": "center"
+                          }
+                        },
+                        {
+                          "id": "stat-satisfaction",
+                          "elType": "widget",
+                          "widgetType": "counter",
+                          "settings": {
+                            "ending_number": 100,
+                            "prefix": "",
+                            "suffix": "%",
+                            "duration": 2000,
+                            "title": "Satisfacción del Cliente",
+                            "number_color": "#f8fafc",
+                            "title_color": "#94a3b8",
+                            "background_background": "gradient",
+                            "background_color": "rgba(30, 41, 59, 0.8)",
+                            "background_color_b": "rgba(15, 23, 42, 0.9)",
+                            "border_border": "solid",
+                            "border_color": "rgba(14, 165, 233, 0.2)",
+                            "border_radius": {
+                              "unit": "rem",
+                              "size": 0.75
+                            },
+                            "padding": {
+                              "unit": "rem",
+                              "top": "1.5",
+                              "right": "1.5",
+                              "bottom": "1.5",
+                              "left": "1.5"
+                            },
+                            "text_align": "center"
+                          }
+                        },
+                        {
+                          "id": "stat-experience",
+                          "elType": "widget",
+                          "widgetType": "counter",
+                          "settings": {
+                            "ending_number": 2,
+                            "prefix": "",
+                            "suffix": "+",
+                            "duration": 2000,
+                            "title": "Años de Experiencia",
+                            "number_color": "#f8fafc",
+                            "title_color": "#94a3b8",
+                            "background_background": "gradient",
+                            "background_color": "rgba(30, 41, 59, 0.8)",
+                            "background_color_b": "rgba(15, 23, 42, 0.9)",
+                            "border_border": "solid",
+                            "border_color": "rgba(14, 165, 233, 0.2)",
+                            "border_radius": {
+                              "unit": "rem",
+                              "size": 0.75
+                            },
+                            "padding": {
+                              "unit": "rem",
+                              "top": "1.5",
+                              "right": "1.5",
+                              "bottom": "1.5",
+                              "left": "1.5"
+                            },
+                            "text_align": "center"
+                          }
+                        },
+                        {
+                          "id": "stat-companies",
+                          "elType": "widget",
+                          "widgetType": "counter",
+                          "settings": {
+                            "ending_number": 15,
+                            "prefix": "",
+                            "suffix": "+",
+                            "duration": 2000,
+                            "title": "Empresas Atendidas",
+                            "number_color": "#f8fafc",
+                            "title_color": "#94a3b8",
+                            "background_background": "gradient",
+                            "background_color": "rgba(30, 41, 59, 0.8)",
+                            "background_color_b": "rgba(15, 23, 42, 0.9)",
+                            "border_border": "solid",
+                            "border_color": "rgba(14, 165, 233, 0.2)",
+                            "border_radius": {
+                              "unit": "rem",
+                              "size": 0.75
+                            },
+                            "padding": {
+                              "unit": "rem",
+                              "top": "1.5",
+                              "right": "1.5",
+                              "bottom": "1.5",
+                              "left": "1.5"
+                            },
+                            "text_align": "center"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "about-visual",
+                  "elements": [
+                    {
+                      "id": "ai-logo-card",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style='aspect-ratio: 1; background: linear-gradient(135deg, rgba(14, 165, 233, 0.2), rgba(168, 85, 247, 0.2)); border-radius: 1rem; padding: 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;'><div style='font-size: 4rem; font-weight: bold; color: #0ea5e9; text-shadow: 0 0 20px rgba(14, 165, 233, 0.5); margin-bottom: 1rem;'>IA</div><p>Creciendo juntos<br>hacia el éxito</p></div>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact-section",
+      "settings": {
+        "padding": {
+          "unit": "rem",
+          "top": "5",
+          "right": "0",
+          "bottom": "5",
+          "left": "0"
+        },
+        "background_color": "#0f172a"
+      },
+      "elements": [
+        {
+          "id": "contact-container",
+          "settings": {
+            "layout": "boxed",
+            "content_width": {
+              "unit": "px",
+              "size": 1200
+            }
+          },
+          "elements": [
+            {
+              "id": "contact-header",
+              "settings": {
+                "text_align": "center",
+                "margin": {
+                  "unit": "rem",
+                  "bottom": "4"
+                }
+              },
+              "elements": [
+                {
+                  "id": "contact-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "¿Listo para <span style='color: #0ea5e9;'>transformar</span> tu negocio?",
+                    "size": "h2",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 3
+                    },
+                    "typography_font_weight": "700",
+                    "margin": {
+                      "unit": "rem",
+                      "bottom": "1.5"
+                    }
+                  }
+                },
+                {
+                  "id": "contact-subtitle",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='font-size: 1.25rem; color: #94a3b8; max-width: 48rem; margin: 0 auto;'>Contáctanos hoy y descubre cómo la inteligencia artificial puede revolucionar tu empresa</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "contact-row",
+              "settings": {
+                "layout": "two-columns",
+                "gap": "3rem",
+                "responsive_settings": {
+                  "tablet": {
+                    "layout": "one-column"
+                  }
+                }
+              },
+              "elements": [
+                {
+                  "id": "contact-form-column",
+                  "elements": [
+                    {
+                      "id": "contact-form-card",
+                      "settings": {
+                        "background_background": "gradient",
+                        "background_color": "rgba(30, 41, 59, 0.8)",
+                        "background_color_b": "rgba(15, 23, 42, 0.9)",
+                        "border_border": "solid",
+                        "border_color": "rgba(14, 165, 233, 0.2)",
+                        "border_radius": {
+                          "unit": "rem",
+                          "size": 0.75
+                        },
+                        "padding": {
+                          "unit": "rem",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "form-title",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Envíanos un mensaje",
+                            "size": "h3",
+                            "color": "#f8fafc",
+                            "margin": {
+                              "unit": "rem",
+                              "bottom": "1.5"
+                            }
+                          }
+                        },
+                        {
+                          "id": "contact-form",
+                          "elType": "widget",
+                          "widgetType": "form",
+                          "settings": {
+                            "form_name": "Contacto SOLPORIA",
+                            "form_fields": [
+                              {
+                                "custom_id": "name",
+                                "field_type": "text",
+                                "field_label": "Tu nombre",
+                                "placeholder": "Tu nombre",
+                                "required": true,
+                                "width": "50"
+                              },
+                              {
+                                "custom_id": "email",
+                                "field_type": "email",
+                                "field_label": "Tu email",
+                                "placeholder": "Tu email",
+                                "required": true,
+                                "width": "50"
+                              },
+                              {
+                                "custom_id": "company",
+                                "field_type": "text",
+                                "field_label": "Tu empresa",
+                                "placeholder": "Tu empresa",
+                                "required": false,
+                                "width": "100"
+                              },
+                              {
+                                "custom_id": "message",
+                                "field_type": "textarea",
+                                "field_label": "Mensaje",
+                                "placeholder": "Cuéntanos sobre tu proyecto...",
+                                "required": true,
+                                "rows": 5,
+                                "width": "100"
+                              }
+                            ],
+                            "button_text": "Enviar mensaje",
+                            "button_size": "md",
+                            "input_size": "md",
+                            "form_style": "full_column",
+                            "label_color": "#f8fafc",
+                            "field_background_color": "#0f172a",
+                            "field_text_color": "#f8fafc",
+                            "field_border_color": "#334155",
+                            "button_background_color": "#0ea5e9",
+                            "button_text_color": "#ffffff",
+                            "success_message": "¡Gracias! Tu mensaje ha sido enviado correctamente. Nos pondremos en contacto contigo pronto.",
+                            "error_message": "Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo."
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "contact-info-column",
+                  "elements": [
+                    {
+                      "id": "contact-info-title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Información de contacto",
+                        "size": "h3",
+                        "color": "#f8fafc",
+                        "margin": {
+                          "unit": "rem",
+                          "bottom": "1.5"
+                        }
+                      }
+                    },
+                    {
+                      "id": "contact-items",
+                      "settings": {
+                        "display": "flex",
+                        "flex_direction": "column",
+                        "gap": "1.5rem",
+                        "margin": {
+                          "unit": "rem",
+                          "bottom": "2"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "contact-email",
+                          "elType": "widget",
+                          "widgetType": "icon-box",
+                          "settings": {
+                            "selected_icon": {
+                              "value": "fas fa-envelope",
+                              "library": "fa-solid"
+                            },
+                            "title_text": "Email",
+                            "description_text": "contacto@solporia.com",
+                            "position": "left",
+                            "icon_color": "#0ea5e9",
+                            "title_color": "#f8fafc",
+                            "description_color": "#94a3b8",
+                            "icon_space": {
+                              "unit": "px",
+                              "size": 15
+                            }
+                          }
+                        },
+                        {
+                          "id": "contact-phone",
+                          "elType": "widget",
+                          "widgetType": "icon-box",
+                          "settings": {
+                            "selected_icon": {
+                              "value": "fas fa-phone",
+                              "library": "fa-solid"
+                            },
+                            "title_text": "Teléfono",
+                            "description_text": "+34 684 403 453",
+                            "position": "left",
+                            "icon_color": "#0ea5e9",
+                            "title_color": "#f8fafc",
+                            "description_color": "#94a3b8",
+                            "icon_space": {
+                              "unit": "px",
+                              "size": 15
+                            }
+                          }
+                        },
+                        {
+                          "id": "contact-location",
+                          "elType": "widget",
+                          "widgetType": "icon-box",
+                          "settings": {
+                            "selected_icon": {
+                              "value": "fas fa-map-marker-alt",
+                              "library": "fa-solid"
+                            },
+                            "title_text": "Ubicación",
+                            "description_text": "Sanxenxo",
+                            "position": "left",
+                            "icon_color": "#0ea5e9",
+                            "title_color": "#f8fafc",
+                            "description_color": "#94a3b8",
+                            "icon_space": {
+                              "unit": "px",
+                              "size": 15
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "consultation-card",
+                      "settings": {
+                        "background_background": "gradient",
+                        "background_color": "rgba(30, 41, 59, 0.8)",
+                        "background_color_b": "rgba(15, 23, 42, 0.9)",
+                        "border_border": "solid",
+                        "border_color": "rgba(14, 165, 233, 0.2)",
+                        "border_radius": {
+                          "unit": "rem",
+                          "size": 0.75
+                        },
+                        "padding": {
+                          "unit": "rem",
+                          "top": "1.5",
+                          "right": "1.5",
+                          "bottom": "1.5",
+                          "left": "1.5"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "consultation-title",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Consulta gratuita",
+                            "size": "h4",
+                            "color": "#f8fafc",
+                            "margin": {
+                              "unit": "rem",
+                              "bottom": "1"
+                            }
+                          }
+                        },
+                        {
+                          "id": "consultation-description",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p style='color: #94a3b8; margin-bottom: 1rem;'>Agenda una consulta gratuita de 30 minutos para discutir cómo la IA puede transformar tu negocio.</p>"
+                          }
+                        },
+                        {
+                          "id": "consultation-button",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "Agendar consulta",
+                            "background_background": "gradient",
+                            "background_color": "#0ea5e9",
+                            "background_color_b": "#a855f7",
+                            "button_text_color": "#ffffff",
+                            "border_radius": {
+                              "unit": "rem",
+                              "size": 0.5
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer-section",
+      "settings": {
+        "background_color": "rgba(30, 41, 59, 0.1)",
+        "border_border": "solid",
+        "border_color": "#334155",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        },
+        "padding": {
+          "unit": "rem",
+          "top": "3",
+          "right": "0",
+          "bottom": "3",
+          "left": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-container",
+          "settings": {
+            "layout": "boxed",
+            "content_width": {
+              "unit": "px",
+              "size": 1200
+            }
+          },
+          "elements": [
+            {
+              "id": "footer-row",
+              "settings": {
+                "layout": "three-columns",
+                "column_gap": "2rem",
+                "responsive_settings": {
+                  "tablet": {
+                    "layout": "one-column"
+                  }
+                }
+              },
+              "elements": [
+                {
+                  "id": "footer-brand",
+                  "settings": {
+                    "width": {
+                      "unit": "%",
+                      "size": 50
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "footer-logo",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "SOLPOR<span style='color: #f8fafc;'>IA</span>",
+                        "size": "h3",
+                        "color": "#0ea5e9",
+                        "typography_font_weight": "700",
+                        "text_shadow_text_shadow": {
+                          "horizontal": 0,
+                          "vertical": 0,
+                          "blur": 20,
+                          "color": "rgba(14, 165, 233, 0.5)"
+                        }
+                      }
+                    },
+                    {
+                      "id": "footer-description",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='color: #94a3b8; margin: 1.5rem 0; max-width: 28rem;'>Transformamos empresas con soluciones de inteligencia artificial innovadoras, seguras y escalables para el futuro digital.</p>"
+                      }
+                    },
+                    {
+                      "id": "social-links",
+                      "elType": "widget",
+                      "widgetType": "social-icons",
+                      "settings": {
+                        "social_icon_list": [
+                          {
+                            "social": "fa-linkedin",
+                            "link": {
+                              "url": "#"
+                            }
+                          },
+                          {
+                            "social": "fa-twitter",
+                            "link": {
+                              "url": "#"
+                            }
+                          },
+                          {
+                            "social": "fa-github",
+                            "link": {
+                              "url": "#"
+                            }
+                          },
+                          {
+                            "social": "fa-envelope",
+                            "link": {
+                              "url": "mailto:contacto@solporia.com"
+                            }
+                          }
+                        ],
+                        "shape": "circle",
+                        "color": "custom",
+                        "primary_color": "#0ea5e9",
+                        "secondary_color": "rgba(14, 165, 233, 0.1)",
+                        "size": {
+                          "unit": "px",
+                          "size": 40
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "footer-services",
+                  "elements": [
+                    {
+                      "id": "services-heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Servicios",
+                        "size": "h4",
+                        "color": "#f8fafc",
+                        "typography_font_weight": "600",
+                        "margin": {
+                          "unit": "rem",
+                          "bottom": "1"
+                        }
+                      }
+                    },
+                    {
+                      "id": "services-links",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<ul style='list-style: none; display: flex; flex-direction: column; gap: 0.5rem;'><li><a href='#' style='color: #94a3b8; text-decoration: none; transition: color 0.3s;'>Automatización</a></li><li><a href='#' style='color: #94a3b8; text-decoration: none; transition: color 0.3s;'>Chatbots</a></li><li><a href='#' style='color: #94a3b8; text-decoration: none; transition: color 0.3s;'>Análisis Predictivo</a></li><li><a href='#' style='color: #94a3b8; text-decoration: none; transition: color 0.3s;'>IA Segura</a></li></ul>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "footer-company",
+                  "elements": [
+                    {
+                      "id": "company-heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Empresa",
+                        "size": "h4",
+                        "color": "#f8fafc",
+                        "typography_font_weight": "600",
+                        "margin": {
+                          "unit": "rem",
+                          "bottom": "1"
+                        }
+                      }
+                    },
+                    {
+                      "id": "company-links",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<ul style='list-style: none; display: flex; flex-direction: column; gap: 0.5rem;'><li><a href='#nosotros' style='color: #94a3b8; text-decoration: none; transition: color 0.3s;'>Sobre nosotros</a></li><li><a href='#' style='color: #94a3b8; text-decoration: none; transition: color 0.3s;'>Casos de éxito</a></li><li><a href='#contacto' style='color: #94a3b8; text-decoration: none; transition: color 0.3s;'>Contacto</a></li><li><a href='#' style='color: #94a3b8; text-decoration: none; transition: color 0.3s;'>Blog</a></li></ul>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "footer-bottom",
+              "settings": {
+                "border_border": "solid",
+                "border_color": "#334155",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                },
+                "margin": {
+                  "unit": "rem",
+                  "top": "2"
+                },
+                "padding": {
+                  "unit": "rem",
+                  "top": "2",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                },
+                "text_align": "center"
+              },
+              "elements": [
+                {
+                  "id": "copyright",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #94a3b8;'>&copy; 2024 SOLPORIA. Todos los derechos reservados.</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

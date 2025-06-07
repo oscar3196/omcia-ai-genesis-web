@@ -20,13 +20,13 @@ export const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            El futuro de tu empresa
+            Automatizamos tu crecimiento
             <br />
-            <span className="text-ai-500 glow-text">es inteligente</span>
+            <span className="text-ai-500 glow-text">con IA</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-            Transformamos tu negocio con soluciones de IA personalizadas. 
+            En SOLPORIA transformamos tu negocio con soluciones de IA personalizadas. 
             Automatización inteligente, análisis predictivo y decisiones basadas en datos.
           </p>
           
